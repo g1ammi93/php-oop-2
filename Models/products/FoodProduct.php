@@ -6,8 +6,8 @@ class FoodProduct extends Product
 {
     private $expiration;
     private $ingredients;
-    private $type = 'food';
-    private $icon = 'fas fa-bowl-food';
+    public static $type = 'food';
+    public static $icon = 'fas fa-bowl-food';
 
     public function __construct($name, $image, $price, Category $category, $expiration, $ingredients)
     {

@@ -6,8 +6,8 @@ class KennelProduct extends Product
 {
     private $color;
     private $size;
-    private $type = 'kennel';
-    private $icon = 'fas fa-bone';
+    public static $type = 'kennel';
+    public static $icon = 'fas fa-house';
 
     public function __construct($name, $image, $price, Category $category, $color, $size)
     {

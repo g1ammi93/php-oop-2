@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 require_once __DIR__ . '/../Models/Category.php';
 
@@ -7,4 +7,4 @@ $categories = [
     'cat' => new Category('Gatti', 'fa-solid fa-cat'),
     'fish' => new Category('Pesci', 'fa-solid fa-fish'),
     'bird' => new Category('Bird', 'fa-solid fa-dove'),
-]
+];
