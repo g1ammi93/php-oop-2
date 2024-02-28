@@ -4,8 +4,8 @@ require_once __DIR__ . '/Product.php';
 
 class ToyProduct extends Product
 {
-    private $color;
-    private $materials;
+    public $color;
+    public $materials;
     public static $type = 'toy';
     public static $icon = 'fas fa-bone';
 

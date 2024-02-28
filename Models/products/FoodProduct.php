@@ -4,8 +4,8 @@ require_once __DIR__ . '/Product.php';
 
 class FoodProduct extends Product
 {
-    private $expiration;
-    private $ingredients;
+    public $expiration;
+    public $ingredients;
     public static $type = 'food';
     public static $icon = 'fas fa-bowl-food';
 

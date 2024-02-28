@@ -12,39 +12,39 @@ $products = [
         'https://arcaplanet.vtexassets.com/arquivos/ids/284621/Mini-Adult.jpg?v=638182891693570000',
         20.99,
         $categories['dog'],
-        ['prosciutto', 'riso'],
-        '2025-11-10'
+        '2025-11-10',
+        ['prosciutto', 'riso']
     ),
     new FoodProduct(
         'Almo Nature Holistic Maintenance Medium Large Tonno e Riso',
         'https://arcaplanet.vtexassets.com/arquivos/ids/245173/almo-nature-holistic-cane-adult-medium-pollo-e-riso.jpg',
         15.99,
         $categories['dog'],
-        ['tonno', 'riso'],
-        '2025-12-15'
+        '2025-12-15',
+        ['tonno', 'riso']
     ),
     new FoodProduct(
         'Almo Nature Cat Daily Lattina',
         'https://arcaplanet.vtexassets.com/arquivos/ids/245336/almo-daily-menu-cat-400-gr-vitello.jpg',
         10.49,
         $categories['cat'],
-        ['vitello'],
-        '2025-10-30'
+        '2025-10-30',
+        ['vitello']
     ),
     new FoodProduct(
         'Mangime per Pesci Guppy in Fiocchi',
         'https://arcaplanet.vtexassets.com/arquivos/ids/272714/tetra-guppy-mini-flakes.jpg',
         5.99,
         $categories['fish'],
-        ['guppy'],
-        '2026-01-20'
+        '2026-01-20',
+        ['guppy']
     ),
     new KennelProduct(
         'Voliera Wilma in Legno',
         'https://arcaplanet.vtexassets.com/arquivos/ids/258384/voliera-wilma1.jpg',
         99.99,
         $categories['bird'],
-        ['red'],
+        'red',
         'small'
     ),
     new KennelProduct(
@@ -52,7 +52,7 @@ $products = [
         'https://arcaplanet.vtexassets.com/arquivos/ids/272741/tetra-easycrystal-filterpack-250-300.jpg',
         8.49,
         $categories['fish'],
-        ['blue'],
+        'blue',
         'medium'
     ),
     new ToyProduct(
@@ -60,7 +60,7 @@ $products = [
         'https://arcaplanet.vtexassets.com/arquivos/ids/256599/kong-classic1.jpg',
         12.99,
         $categories['dog'],
-        ['black'],
+        'black',
         'plastic'
     ),
     new ToyProduct(
@@ -68,7 +68,7 @@ $products = [
         'https://arcaplanet.vtexassets.com/arquivos/ids/223852/trixie-gatto-gioco-active-mouse-peluche.jpg',
         6.99,
         $categories['cat'],
-        ['purple'],
+        'purple',
         'peluche'
     )
 ];

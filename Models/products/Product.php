@@ -4,10 +4,10 @@ require_once __DIR__ . '/../Category.php';
 
 class Product
 {
-    protected $name;
-    protected $image;
-    protected $price;
-    protected $category;
+    public $name;
+    public $image;
+    public $price;
+    public $category;
 
     public function __construct($name, $image, $price, Category $category)
     {
